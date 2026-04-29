@@ -19,7 +19,7 @@ A complete, production-ready AI/ML system to screen and rank candidate resumes a
 
 ---
 
-## 🚀 Setup Instructions
+## Setup Instructions
 
 ### 1. Prerequisites
 Ensure you have **Python 3.8+** installed on your system.
@@ -66,7 +66,7 @@ Then visit `http://localhost:5500` in your browser.
 
 ---
 
-## 🧪 How to Test
+##  How to Test
 1. Create a dummy Job Description text (e.g., "Looking for a Python Developer with React experience").
 2. Create some sample PDF or DOCX resumes.
 3. Open the Frontend UI (`index.html`).
@@ -76,7 +76,7 @@ Then visit `http://localhost:5500` in your browser.
 
 ---
 
-## 📊 Bonus: Upgrading and Scaling
+##  Upgrading and Scaling
 
 ### Accuracy Improvement Suggestions
 1. **Semantic Search via Embeddings**: Instead of TF-IDF, use dense embeddings (like SentenceTransformers `all-MiniLM-L6-v2`) to capture contextual meaning better.
