@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-python-multipart
-spacy
-scikit-learn
-PyPDF2
-python-docx
-sqlalchemy
-pydantic
