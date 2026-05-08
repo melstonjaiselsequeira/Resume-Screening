@@ -38,7 +38,7 @@ form.addEventListener('submit', async (e) => {
     resultsSection.classList.add('hidden');
 
     try {
-        const response = await fetch('http://localhost:8000/api/screen', {
+        const response = await fetch('https://resume-screening-dg5y.onrender.com', {
             method: 'POST',
             body: formData
         });
