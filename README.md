@@ -98,10 +98,16 @@ To switch from TF-IDF to BERT for lightweight, highly accurate embeddings:
    ```
 
 ### Deployment Strategy
-- **Backend (Render / Railway / AWS)**:
-  - Dockerize the application. Write a `Dockerfile` that installs requirements and the spacy model, then runs `uvicorn app:app --host 0.0.0.0 --port $PORT`.
-  - Push to GitHub and connect the repository to Render/Railway for automatic builds.
+- **Backend (Render)**:
+  - Dockerize the application. Write a `pyhton 3` that installs requirements and the spacy model, then runs `uvicorn app:app --host 0.0.0.0 --port $PORT`.
+  - Push to GitHub and connect the repository to Render for automatic builds.
 - **Frontend (Vercel / Netlify / GitHub Pages)**:
   - Since it's plain HTML/CSS/JS, drag and drop the `frontend` folder into Netlify, or deploy via Vercel. Ensure `script.js` points to your deployed backend URL instead of `localhost:8000`.
 - **Database**:
   - Migrate from SQLite to PostgreSQL (e.g., Supabase or RDS) for concurrent read/write handling in production.
+ 
+### DEPLOYMENT
+-**Backend(render)**
+  - New-> Web services-> choose repo-> lang-> directory-> build command-> start command->deploy
+-**Frontend(vercel)**
+  -
