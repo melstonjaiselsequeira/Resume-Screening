@@ -1,4 +1,4 @@
-# Smart Resume Screening System
+# Smart Resume Screening System (AI/ML)
 
 A complete, production-ready AI/ML system to screen and rank candidate resumes against a Job Description using Natural Language Processing (NLP).
 
